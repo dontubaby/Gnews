@@ -1,0 +1,18 @@
+{
+    "source":[
+       "https://habr.com/ru/rss/hub/go/all/?fl=ru",
+       "https://habr.com/ru/rss/best/daily/?fl=ru",
+       "https://cprss.s3.amazonaws.com/golangweekly.com.xml"
+    ],
+    "interval": 10,
+    "brokers": ["localhost:9093"
+   ],
+    "topic":[
+      "news",
+      "newsdetail",
+      "newslist",
+      "filtered_content",
+      "filter_published",
+      "comments"
+    ]
+ }
